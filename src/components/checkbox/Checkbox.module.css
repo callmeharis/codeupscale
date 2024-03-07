@@ -1,0 +1,15 @@
+.checkboxWrapper input {
+    display: none;
+}
+
+.checkboxWrapper input+label {
+    padding: 4px 20px 4px 20px;
+    border-radius: 4px;
+    border: 1px solid #D3D3D366;
+}
+
+.checkboxWrapper input:checked+label {
+    background: #5236FF;
+    color: #FFFFFF;
+    font-size: 16px;
+}

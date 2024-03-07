@@ -1,0 +1,25 @@
+.testimonialsWrapper {
+    background-color: #F9F9FD;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.testimonialsWrapper .bgImage {
+    position: absolute;
+    top: 51%;
+    left: 0;
+    transform: translate(0%, -50%);
+    z-index: 0;
+}
+
+.TestimonialCard {
+    padding: 24px !important;
+    background: #fff;
+}
+
+@media (max-width:767px) {
+    .testimonialsWrapper .bgImage {
+      display: none;
+    }
+}

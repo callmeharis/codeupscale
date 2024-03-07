@@ -1,0 +1,12 @@
+.whyUsCard:hover {
+    background: #5236FF;
+    transition: all .1s ease-in;
+}
+
+.whyUsCard:hover p {
+    color: #EFEFEF !important;
+}
+
+.whyUsCard:hover h2 {
+    color: #c6c3de61 !important;
+}

@@ -1,0 +1,31 @@
+.serviceCard {
+    position: relative;
+    padding-bottom: 90px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .serviceCard:hover {
+    background: #5236FF;
+    box-shadow: -10px 30px 70px 0px #4C40F74D;
+    color: #fff;
+}
+
+.serviceCard:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.serviceCard:hover ul li span {
+    color: #fff !important;
+} */
+
+.arrowBtn {
+    background: #F3F4F6;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 40px;
+}
